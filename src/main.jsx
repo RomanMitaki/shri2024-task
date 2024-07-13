@@ -1,0 +1,15 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './assets/styles/reset.css'
+import './assets/styles/styles.css'
+import {Header} from "./components/Header.jsx";
+import {Main} from "./components/Main.jsx";
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <>
+            <Header />
+            <Main />
+        </>
+    </React.StrictMode>,
+)
